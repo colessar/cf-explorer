@@ -70,6 +70,7 @@ cf-explorer:
       image:
         tag: "0.5.0-SNAPSHOT-sanchonet-PR123"
       emailFrom: "admin@beta.explorer.cardano.org"
+      emailFromName: "Cardano Foundation - Explorer"
       keycloakServerUrl: "https://keycloak.pro.cf-explorer-preview.eu-west-1.beta.explorer.cardano.org"
     explorerFrontEnd:
       enabled: true

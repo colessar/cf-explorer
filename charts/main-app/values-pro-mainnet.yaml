@@ -103,6 +103,7 @@ cf-explorer:
         standalone:
           useSsl: "true"
       emailFrom: "admin@beta.explorer.cardano.org"
+      emailFromName: "Cardano Foundation - Explorer"
       keycloakServerUrl: "https://keycloak.pro.cf-explorer-mainnet.eu-west-1.beta.explorer.cardano.org"
     explorerFrontEnd:
       enabled: true
