@@ -30,6 +30,10 @@ cf-ledger-sync-resync:
 cf-explorer:
   # Whether the Explorer Resources should be deployed.
   enabled: true
+  values:
+    explorerFrontEnd:
+      reactAppFfGlobalIsConwayEra: "false"
+      reactAppFfGlobalIsConwayBootstrapDataAvailable: "false"
 
 # Ada Handle Parameters
 adahandle-resolver:
